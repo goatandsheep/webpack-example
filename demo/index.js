@@ -1,7 +1,10 @@
-require('./app.css');
+import exportAlert from './modules/errorAlert'
+require('./index.css');
 
 (function () {
 
-  function main() { }
+  function main() {
+    exportAlert('hi')
+  }
   main()
 })()
